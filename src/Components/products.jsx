@@ -3,7 +3,7 @@ import * as ReactBootstrap from 'react-bootstrap';
 import axios from 'axios';
 
 
-const {
+import {
   Card,
   Accordion,
   Button,
@@ -12,7 +12,7 @@ const {
   Col,
   Image,
   Input,
-} = ReactBootstrap;
+} from 'react-bootstrap';
 
 // sumulate getting products from DataBase
 const products = [
